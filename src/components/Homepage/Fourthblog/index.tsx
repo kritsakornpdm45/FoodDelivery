@@ -3,7 +3,7 @@ import React from 'react'
 
 const Fourthblog = () => {
   return (
-    <div className='container h-[500px] mx-auto px-4 py-20'>
+    <div className=' w-full h-[700px] mx-auto px-4 py-12'>
       <SimpleSlider/>
     </div>
   )
