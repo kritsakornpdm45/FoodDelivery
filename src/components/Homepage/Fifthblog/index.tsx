@@ -4,7 +4,7 @@ import { featureitems } from "@/utils/Fifthblog";
 
 const Fifthblog = () => {
   return (
-    <div className=" w-full h-[1440px] ">
+    <div className=" w-full h-full lg:h-[1440px] ">
       <div className="container mx-auto px-4 py-13">
         <h2 className="text-center text-4xl font-bold mb-15 text-gray-900">
           Featured Restaurants
