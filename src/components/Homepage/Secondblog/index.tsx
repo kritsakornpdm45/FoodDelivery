@@ -4,8 +4,8 @@ import { foodItems } from "@/utils/Secondblog";
 
 const Secondblog = () => {
   return (
-    <div className="container h-[505px] mx-auto px-4 py-20">
-     
+    <div className="w-full h-full xl:h-[505px]  ">
+      <div className="container  mx-auto px-4 py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-1   ">
           {foodItems.map((item) => (
             <FoodCard
@@ -16,7 +16,7 @@ const Secondblog = () => {
               daysRemaining={item.daysRemaining}
             />
           ))}
-        
+        </div>
       </div>
     </div>
   );

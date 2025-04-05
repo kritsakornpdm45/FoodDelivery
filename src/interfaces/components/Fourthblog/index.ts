@@ -4,7 +4,7 @@ export interface ArrowProps {
     onClick?: () => void;
   }
 
-export interface IFourthblog {
+export interface IFourthprops {
     id?: number;
     image: string;
     title: string;

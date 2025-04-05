@@ -7,7 +7,7 @@ const Thirdblog = () => {
   return (
 
     <section className=" bg-gradient-to-b from-[#FFF7E8] to-[#FEFEFE]">
-      <div className="container mx-auto max-w-7xl px-4 py-13">
+      <div className="container mx-auto  px-4 py-13">
 
         <div className="text-3xl font-bold text-center mb-12  text-[#f27229]">
           <h2>How does it work</h2>

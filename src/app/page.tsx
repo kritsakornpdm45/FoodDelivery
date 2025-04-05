@@ -1,3 +1,4 @@
+import Fifthblog from "@/components/Homepage/Fifthblog";
 import Firstblog from "@/components/Homepage/Firstblog";
 import Fourthblog from "@/components/Homepage/Fourthblog";
 import Secondblog from "@/components/Homepage/Secondblog";
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Secondblog/>
       <Thirdblog/>
       <Fourthblog/>
+      <Fifthblog/>
       {/* <div>Nav</div>
       <div>HeroSection</div>
       <div>PopularCities</div>
