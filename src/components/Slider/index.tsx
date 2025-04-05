@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { popitems } from "@/utils/Fourthblog";
-import { IFourthblog } from "@/interfaces/components/Fourthblog";
+import { IFourthprops } from "@/interfaces/components/Fourthblog";
 import Image from "next/image";
 import { useState } from "react";
 import { Swiper as SwiperClass } from "swiper";
@@ -68,7 +68,7 @@ const SimpleSlider: React.FC = () => {
           }}
           className="custom-swiper"
         >
-          {popitems.map((item: IFourthblog) => (
+          {popitems.map((item: IFourthprops) => (
             <SwiperSlide key={item.id}>
               <div className="h-full w-full  bg-white   ">
                 <div className="relative  h-69 w-69 overflow-auto gap-2 ">
