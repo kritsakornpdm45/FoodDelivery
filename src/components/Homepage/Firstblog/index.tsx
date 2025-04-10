@@ -5,7 +5,7 @@ import heroHeader from "@/assets/Images/hero-header.png";
 
 export default function Firstblog() {
   return (
-    <div className="w-full mx-auto px-4 sm:px-6 pt-8 sm:pt-16 bg-[#ffb30f]">
+    <div className="w-full max-h-max mx-auto px-4 sm:px-6 pt-8 sm:pt-16 bg-[#ffb30f]">
       <div className="container mx-auto px-4 h-auto sm:h-[625px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full items-center">
           {/* Left Column */}
@@ -22,7 +22,7 @@ export default function Firstblog() {
           </div>
 
           {/* Right Column - Image Container */}
-          <div className="relative w-full h-64 sm:h-full overflow-hidden rounded-lg group order-1 md:order-2">
+          <div className="relative w-full h-64 sm:h-full sm:flex-1 overflow-hidden rounded-lg group order-1 md:order-2">
             <Image
               src={heroHeader}
               alt="Heroheader Food"

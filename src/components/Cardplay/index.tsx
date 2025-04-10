@@ -30,8 +30,8 @@ export default function Cardplay() {
   };
 
   return (
-    <div>
-      <div className="bg-white w-[530px] rounded-lg p-4 shadow-md">
+    <div className="w-full md:w-auto">
+      <div className="bg-white w-full md:w-[530px] rounded-lg p-4 shadow-md">
         {/* Delivery/Pickup Toggle */}
         <div className="flex mb-4">
           <button
@@ -66,8 +66,8 @@ export default function Cardplay() {
         <div className="h-[1px] w-full bg-[#e0e0e0] mb-4"></div>
 
         {/* Search Input with Icon */}
-        <div className="flex items-center gap-2">
-          <div className="relative flex-1">
+        <div className="flex flex-col md:flex-row items-center gap-2">
+          <div className="relative w-full md:flex-1">
             <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
               <LocateLogo color="#f27229" width="15" height="15" />
             </div>
@@ -79,7 +79,7 @@ export default function Cardplay() {
                         rounded-sm text-gray-500 transition-colors"
             />
           </div>
-          <button className="bg-[#f27229] text-sm font-semibold text-white px-4 py-3 rounded-sm hover:bg-[#c15b20] transition-colors">
+          <button className="w-full md:w-auto mt-2 md:mt-0 bg-[#f27229] text-sm font-semibold text-white px-4 py-3 rounded-sm hover:bg-[#c15b20] transition-colors">
             Find Food
           </button>
         </div>

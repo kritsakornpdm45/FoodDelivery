@@ -9,23 +9,24 @@ const Featcard = (props: IFifthprops) => {
   const { image, title, location, status, discount, starpoint, logo, id } =
     props;
   return (
-    <div className=" flex flex-col  overflow-hidden gap-4 ">
+    <div className="flex flex-col overflow-hidden gap-4 w-full">
       {/* Image Container */}
-      <div className="relative w-[365px] h-[300px]  ">
+      <div className="relative w-full aspect-[1.2]">
         <Image
           key={id}
           src={image}
           alt={title}
           fill
-          className="object-cover rounded-2xl "
+          className="object-cover rounded-2xl"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute top-4 left-4">
-          <div className=" flex flex-row gap-2">
-            <div className=" flex flex-row items-center gap-2 bg-[#f27229] rounded-md h-9 px-2 py-3 text-white text-sm font-semibold ">
+          <div className="flex flex-row gap-2">
+            <div className="flex flex-row items-center gap-2 bg-[#f27229] rounded-md h-9 px-2 py-3 text-white text-sm font-semibold">
               <PricetagLogo width="16" height="16" color="white" />
               <p>{discount}</p>
             </div>
-            <div className=" flex flex-row items-center gap-2 bg-[#ffb30f] rounded-md h-9 px-2 py-3 text-white text-md font-semibold">
+            <div className="flex flex-row items-center gap-2 bg-[#ffb30f] rounded-md h-9 px-2 py-3 text-white text-md font-semibold">
               <ClockProvideLogo width="16" height="16" color="white" />
               <p>Fast</p>
             </div>
